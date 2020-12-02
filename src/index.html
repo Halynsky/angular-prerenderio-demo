@@ -6,8 +6,17 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <meta name="prerender-status-code" content="404">
+  <meta name="prerender-status-code" content="301">
+  <meta name="prerender-header" content="Location: https://angular-prerenderio-demo.herokuapp.com">
+
+
 </head>
 <body>
   <app-root></app-root>
+
+  <script> window.prerenderReady = false; </script>
+
 </body>
 </html>

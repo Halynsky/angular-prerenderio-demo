@@ -1,0 +1,12 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://angular-prerenderio-demo.herokuapp.com/</loc>
+    <lastmod>2020-12-01T16:12:20+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://angular-prerenderio-demo.herokuapp.com/my-page</loc>
+    <lastmod>2020-12-01T16:12:20+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>

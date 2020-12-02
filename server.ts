@@ -5,6 +5,8 @@ import * as path from "path";
 
   const app: express.Application = express();
 
+  app.use(require('prerender-node').set('prerenderToken', 'jMWhilZTqX31YvC649bq'));
+
   app.use('/', express.static(path.join(__dirname, 'dist')))
 
   // UI Controller for Angular app
@@ -15,8 +17,6 @@ import * as path from "path";
   app.get(/^(?!api).*/, (req, res) => {
     res.sendFile('index.html', { root: path.join(__dirname, 'dist') });
   });
-
-  app.use(require('prerender-node').set('prerenderToken', 'jMWhilZTqX31YvC649bq'));
 
   // run server
   app.listen(process.env.PORT, () => {
